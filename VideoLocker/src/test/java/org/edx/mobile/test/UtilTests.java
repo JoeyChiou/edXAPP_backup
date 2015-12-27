@@ -1,9 +1,9 @@
-package org.edx.mobile.test;
+package org.openedu.www.test;
 
 import android.content.Intent;
 import android.net.Uri;
 
-import org.edx.mobile.util.BrowserUtil;
+import tw.openedu.www.util.BrowserUtil;
 import org.junit.Test;
 import org.robolectric.RuntimeEnvironment;
 

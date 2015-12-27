@@ -1,9 +1,9 @@
 /**
  * 
  */
-package org.edx.iostestsuite;
+package org.openedu.iostestsuite;
 
-import org.edx.basetest.MyVideosTestSuiteBase;
+import org.openedu.basetest.MyVideosTestSuiteBase;
 import org.testng.annotations.Test;
 
 /**

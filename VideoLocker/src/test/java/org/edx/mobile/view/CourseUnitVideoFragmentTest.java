@@ -1,4 +1,4 @@
-package org.edx.mobile.view;
+package org.openedu.www.view;
 
 import android.app.ActionBar;
 import android.content.res.Configuration;
@@ -13,11 +13,13 @@ import android.view.Window;
 import android.view.WindowManager;
 import android.widget.LinearLayout;
 
-import org.edx.mobile.R;
-import org.edx.mobile.http.OkHttpUtil;
-import org.edx.mobile.model.api.EnrolledCoursesResponse;
-import org.edx.mobile.model.course.CourseComponent;
-import org.edx.mobile.model.course.VideoBlockModel;
+import tw.openedu.www.R;
+import tw.openedu.www.http.OkHttpUtil;
+import tw.openedu.www.model.api.EnrolledCoursesResponse;
+import tw.openedu.www.model.course.CourseComponent;
+import tw.openedu.www.model.course.VideoBlockModel;
+import tw.openedu.www.view.CourseUnitVideoFragment;
+
 import org.junit.Test;
 import org.robolectric.Robolectric;
 import org.robolectric.annotation.Config;

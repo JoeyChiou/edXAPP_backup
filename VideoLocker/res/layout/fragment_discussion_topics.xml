@@ -25,7 +25,7 @@
         android:layout_height="wrap_content"
         android:background="@color/white">
 
-        <org.edx.mobile.third_party.iconify.IconView
+        <tw.openedu.www.third_party.iconify.IconView
             android:id="@+id/discussion_following_icon"
             style="@style/icon_view_standard_size_style"
             android:layout_margin="15dp"
@@ -34,7 +34,7 @@
             android:layout_centerVertical="true"
             app:iconColor="@color/edx_grayscale_neutral_dark" />
 
-        <org.edx.mobile.view.custom.ETextView
+        <tw.openedu.www.view.custom.ETextView
             android:id="@+id/discussion_topic_name_text_view"
             style="@style/regular_grey_text"
             android:layout_width="match_parent"

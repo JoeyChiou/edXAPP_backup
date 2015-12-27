@@ -1,6 +1,6 @@
-package org.edx.androidtestsuite;
+package org.openedu.androidtestsuite;
 
-import org.edx.basetest.Offline_MyCoursesTestSuiteBase;
+import org.openedu.basetest.Offline_MyCoursesTestSuiteBase;
 import org.testng.annotations.Test;
 
 @Test(groups = "Android")

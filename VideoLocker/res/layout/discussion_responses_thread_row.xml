@@ -14,7 +14,7 @@
         android:paddingRight="@dimen/discussion_responses_box_padding"
         android:paddingBottom="3dp">
 
-        <org.edx.mobile.view.custom.ETextView
+        <tw.openedu.www.view.custom.ETextView
             android:id="@+id/discussion_responses_thread_row_title_text_view"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -23,7 +23,7 @@
             android:textColor="@color/edx_grayscale_neutral_x_dark"
             android:layout_marginBottom="@dimen/discussion_responses_standard_margin"/>
 
-        <org.edx.mobile.view.custom.ETextView
+        <tw.openedu.www.view.custom.ETextView
             android:id="@+id/discussion_responses_thread_row_body_text_view"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -38,7 +38,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@+id/discussion_responses_thread_row_body_text_view">
 
-            <org.edx.mobile.third_party.iconify.IconView
+            <tw.openedu.www.third_party.iconify.IconView
                 android:id="@+id/discussion_responses_thread_row_pinned_icon_view"
                 android:layout_width="@dimen/edx_xxx_small"
                 android:layout_height="@dimen/edx_xxx_small"

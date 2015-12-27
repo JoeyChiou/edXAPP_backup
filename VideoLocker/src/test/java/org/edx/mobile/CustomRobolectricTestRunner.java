@@ -1,4 +1,4 @@
-package org.edx.mobile;
+package org.openedu.www;
 
 import org.junit.runners.model.InitializationError;
 import org.robolectric.RobolectricGradleTestRunner;

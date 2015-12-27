@@ -1,7 +1,7 @@
-package org.edx;
+package org.openedu;
 
-import org.edx.utils.PropertyLoader;
-import org.edx.utils.StringUtils;
+import org.openedu.utils.PropertyLoader;
+import org.openedu.utils.StringUtils;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
 /**

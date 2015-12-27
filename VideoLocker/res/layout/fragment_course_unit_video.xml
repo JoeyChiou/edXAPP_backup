@@ -26,7 +26,7 @@
         android:gravity="center"
         android:orientation="vertical">
 
-        <org.edx.mobile.third_party.iconify.IconView
+        <tw.openedu.www.third_party.iconify.IconView
             android:layout_width="140dp"
             android:layout_height="140dp"
             android:background="@color/white"

@@ -1,4 +1,4 @@
-package org.edx.utils;
+package org.openedu.utils;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;

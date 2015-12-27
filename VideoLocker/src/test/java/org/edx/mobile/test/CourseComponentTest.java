@@ -1,10 +1,10 @@
-package org.edx.mobile.test;
+package org.openedu.www.test;
 
-import org.edx.mobile.model.Filter;
-import org.edx.mobile.model.course.BlockModel;
-import org.edx.mobile.model.course.BlockType;
-import org.edx.mobile.model.course.CourseComponent;
-import org.edx.mobile.model.course.VideoBlockModel;
+import tw.openedu.www.model.Filter;
+import tw.openedu.www.model.course.BlockModel;
+import tw.openedu.www.model.course.BlockType;
+import tw.openedu.www.model.course.CourseComponent;
+import tw.openedu.www.model.course.VideoBlockModel;
 import org.junit.Before;
 import org.junit.Test;
 import org.mockito.Mockito;

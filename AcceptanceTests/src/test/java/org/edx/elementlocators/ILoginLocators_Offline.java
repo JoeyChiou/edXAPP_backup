@@ -1,4 +1,4 @@
-package org.edx.elementlocators;
+package org.openedu.elementlocators;
 
 public interface ILoginLocators_Offline {
 	

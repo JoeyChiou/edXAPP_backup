@@ -1,4 +1,4 @@
-package org.edx.mobile.test.http;
+package org.openedu.www.test.http;
 
 import android.text.TextUtils;
 
@@ -10,8 +10,8 @@ import com.squareup.okhttp.mockwebserver.MockResponse;
 import com.squareup.okhttp.mockwebserver.MockWebServer;
 import com.squareup.okhttp.mockwebserver.RecordedRequest;
 
-import org.edx.mobile.test.BaseTestCase;
-import org.edx.mobile.util.Config;
+import org.openedu.www.test.BaseTestCase;
+import tw.openedu.www.util.Config;
 import org.json.JSONException;
 import org.json.JSONObject;
 import org.junit.Ignore;

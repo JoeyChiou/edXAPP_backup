@@ -1,6 +1,6 @@
-package org.edx.mobile.view;
+package org.openedu.www.view;
 
-import org.edx.mobile.test.http.HttpBaseTestCase;
+import org.openedu.www.test.http.HttpBaseTestCase;
 import org.junit.Before;
 
 /**

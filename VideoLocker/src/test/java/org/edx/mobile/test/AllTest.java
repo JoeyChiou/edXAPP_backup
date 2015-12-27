@@ -1,4 +1,4 @@
-package org.edx.mobile.test;
+package org.openedu.www.test;
 
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;

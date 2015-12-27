@@ -1,12 +1,12 @@
-package org.edx.mobile.test;
+package org.openedu.www.test;
 
 import com.segment.analytics.Options;
 import com.segment.analytics.Properties;
 import com.segment.analytics.Traits;
 
-import org.edx.mobile.module.analytics.ISegment;
-import org.edx.mobile.module.analytics.ISegmentImpl;
-import org.edx.mobile.module.analytics.ISegmentTracker;
+import tw.openedu.www.module.analytics.ISegment;
+import tw.openedu.www.module.analytics.ISegmentImpl;
+import tw.openedu.www.module.analytics.ISegmentTracker;
 import org.junit.Test;
 import org.mockito.Mockito;
 

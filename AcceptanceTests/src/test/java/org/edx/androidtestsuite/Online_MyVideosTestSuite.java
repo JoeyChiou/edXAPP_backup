@@ -1,6 +1,6 @@
-package org.edx.androidtestsuite;
+package org.openedu.androidtestsuite;
 
-import org.edx.basetest.MyVideosTestSuiteBase;
+import org.openedu.basetest.MyVideosTestSuiteBase;
 import org.testng.annotations.Test;
 
 @Test(groups = "Android")

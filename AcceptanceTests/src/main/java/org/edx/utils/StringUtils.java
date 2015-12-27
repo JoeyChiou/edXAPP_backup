@@ -1,4 +1,4 @@
-package org.edx.utils;
+package org.openedu.utils;
 
 public class StringUtils {
 

@@ -1,6 +1,6 @@
-package org.edx.basetest;
+package org.openedu.basetest;
 
-import org.edx.nativeapp.NativeAppDriver;
+import org.openedu.nativeapp.NativeAppDriver;
 
 public class CommonFunctionalities extends BaseTest {
 

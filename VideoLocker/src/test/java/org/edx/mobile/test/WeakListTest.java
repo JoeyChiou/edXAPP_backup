@@ -1,6 +1,6 @@
-package org.edx.mobile.test;
+package org.openedu.www.test;
 
-import org.edx.mobile.util.WeakList;
+import tw.openedu.www.util.WeakList;
 import org.junit.Before;
 import org.junit.Test;
 

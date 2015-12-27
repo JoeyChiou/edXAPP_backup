@@ -1,4 +1,4 @@
-package org.edx.mobile.shadows;
+package org.openedu.www.shadows;
 
 import android.os.Handler;
 

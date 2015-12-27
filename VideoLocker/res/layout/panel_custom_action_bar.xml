@@ -5,11 +5,11 @@
     android:layout_height="50dp"
     android:background="@color/edx_brand_primary_base">
 
-    <org.edx.mobile.view.custom.ETextView
+    <tw.openedu.www.view.custom.ETextView
         android:id="@+id/activity_title"
         style="@style/custom_activity_title" />
 
-    <org.edx.mobile.view.custom.EButton
+    <tw.openedu.www.view.custom.EButton
         android:id="@+id/actionbar_close_btn"
         android:layout_width="40dp"
         android:layout_height="40dp"

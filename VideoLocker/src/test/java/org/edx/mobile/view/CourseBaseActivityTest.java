@@ -1,4 +1,4 @@
-package org.edx.mobile.view;
+package org.openedu.www.view;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
@@ -11,10 +11,10 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.ProgressBar;
 
-import org.edx.mobile.R;
-import org.edx.mobile.event.DownloadEvent;
-import org.edx.mobile.model.api.EnrolledCoursesResponse;
-import org.edx.mobile.third_party.iconify.IconDrawable;
+import tw.openedu.www.R;
+import tw.openedu.www.event.DownloadEvent;
+import tw.openedu.www.model.api.EnrolledCoursesResponse;
+import tw.openedu.www.third_party.iconify.IconDrawable;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.robolectric.Robolectric;
@@ -23,6 +23,9 @@ import org.robolectric.shadows.ShadowActivity;
 import org.robolectric.util.ActivityController;
 
 import de.greenrobot.event.EventBus;
+import tw.openedu.www.view.CourseBaseActivity;
+import tw.openedu.www.view.DownloadListActivity;
+import tw.openedu.www.view.Router;
 
 import static org.assertj.android.api.Assertions.assertThat;
 import static org.junit.Assert.*;

@@ -12,7 +12,7 @@
         android:descendantFocusability="blocksDescendants"
         android:paddingBottom="5dp">
 
-        <org.edx.mobile.view.custom.ETextView
+        <tw.openedu.www.view.custom.ETextView
             android:id="@+id/findcourse_tv"
             style="@style/semibold_text"
             android:layout_width="match_parent"
@@ -39,7 +39,7 @@
             android:textColor="@color/white"
             android:textSize="15sp" />
         
-        <org.edx.mobile.view.custom.ETextView
+        <tw.openedu.www.view.custom.ETextView
             android:id="@+id/course_not_listed_tv"
             style="@style/semibold_text"
             android:layout_width="wrap_content"

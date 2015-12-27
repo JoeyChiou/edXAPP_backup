@@ -1,4 +1,4 @@
-package org.edx.basetest;
+package org.openedu.basetest;
 
 import java.sql.Timestamp;
 import java.util.Date;

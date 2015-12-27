@@ -1,6 +1,6 @@
-package org.edx.mobile.test;
+package org.openedu.www.test;
 
-import org.edx.mobile.util.MemoryUtil;
+import tw.openedu.www.util.MemoryUtil;
 import org.junit.Test;
 import org.robolectric.RuntimeEnvironment;
 

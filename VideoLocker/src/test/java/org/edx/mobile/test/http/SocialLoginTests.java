@@ -1,7 +1,6 @@
-package org.edx.mobile.test.http;
+package org.openedu.www.test.http;
 
-import org.edx.mobile.http.Api;
-import org.edx.mobile.model.api.ProfileModel;
+import tw.openedu.www.model.api.ProfileModel;
 import org.junit.Test;
 import org.robolectric.RuntimeEnvironment;
 

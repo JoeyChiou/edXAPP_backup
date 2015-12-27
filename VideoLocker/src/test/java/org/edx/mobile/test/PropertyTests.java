@@ -1,6 +1,6 @@
-package org.edx.mobile.test;
+package org.openedu.www.test;
 
-import org.edx.mobile.util.PropertyUtil;
+import tw.openedu.www.util.PropertyUtil;
 import org.junit.Test;
 import org.robolectric.RuntimeEnvironment;
 

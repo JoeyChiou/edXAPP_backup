@@ -26,7 +26,7 @@
         android:layout_alignParentTop="true"
         android:background="@color/video_details_background_transparent" >
 
-        <org.edx.mobile.view.custom.ETextView
+        <tw.openedu.www.view.custom.ETextView
             android:id="@+id/video_title"
             style="@style/video_title"
             android:layout_width="match_parent"
@@ -134,7 +134,7 @@
                 android:thumbOffset="0dp"
                 tools:targetApi="17" />
 
-            <org.edx.mobile.view.custom.ETextView
+            <tw.openedu.www.view.custom.ETextView
                 android:id="@+id/time_current"
                 style="@style/semibold_white_text"
                 android:layout_width="wrap_content"
@@ -148,7 +148,7 @@
                 android:textSize="12sp"
                 tools:targetApi="17" />
 
-            <org.edx.mobile.view.custom.ETextView
+            <tw.openedu.www.view.custom.ETextView
                 android:id="@+id/time_slash"
                 style="@style/bold_white_text"
                 android:layout_width="wrap_content"
@@ -158,7 +158,7 @@
                 android:text="@string/lbl_slash"
                 android:textSize="12sp" />
 
-            <org.edx.mobile.view.custom.ETextView
+            <tw.openedu.www.view.custom.ETextView
                 android:id="@+id/time"
                 style="@style/semibold_white_text"
                 android:layout_width="wrap_content"

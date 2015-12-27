@@ -1,10 +1,10 @@
-package org.edx.mobile.test;
+package org.openedu.www.test;
 
 import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonPrimitive;
 
-import org.edx.mobile.util.Config;
+import tw.openedu.www.util.Config;
 import org.junit.Test;
 
 import java.util.ArrayList;

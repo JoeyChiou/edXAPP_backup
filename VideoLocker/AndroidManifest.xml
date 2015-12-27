@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="org.edx.mobile"
+    package="tw.openedu.www"
     android:installLocation="auto" >
 
     <!-- Required by app for server communication and video download -->
@@ -61,7 +61,7 @@
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
     <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
     <permission android:protectionLevel="signature"
-        android:name="org.edx.mobile.permission.C2D_MESSAGE" />
+        android:name="org.openedu.www.permission.C2D_MESSAGE" />
     <uses-permission android:name="org.edx.mobile.permission.C2D_MESSAGE" />
 
     <!-- Permission for floating window. used for notification -->
@@ -75,10 +75,10 @@
         android:icon="@drawable/app_icon"
         android:label="@string/app_name"
         android:theme="@style/CustomActionBarTheme"
-        android:name="org.edx.mobile.base.MainApplication" >
+        android:name="tw.openedu.www.base.MainApplication" >
 
         <activity
-            android:name="org.edx.mobile.view.SplashActivity"
+            android:name="tw.openedu.www.view.SplashActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.CustomPreview">
@@ -90,13 +90,13 @@
         </activity>
 
         <activity
-            android:name="org.edx.mobile.view.LaunchActivity"
+            android:name="tw.openedu.www.view.LaunchActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.NoTitleBar" />
         
         <activity
-            android:name="org.edx.mobile.view.LoginActivity"
+            android:name="tw.openedu.www.view.LoginActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.NoTitleBar"
@@ -106,58 +106,58 @@
         </activity>
         
         <activity
-            android:name="org.edx.mobile.view.MyCoursesListActivity"
+            android:name="tw.openedu.www.view.MyCoursesListActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait" >
         </activity>
         
         <activity
-            android:name="org.edx.mobile.view.CourseDetailTabActivity"
+            android:name="tw.openedu.www.view.CourseDetailTabActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
             >
         </activity>
 
         <activity
-            android:name="org.edx.mobile.view.CourseDashboardActivity"
+            android:name="tw.openedu.www.view.CourseDashboardActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
             >
         </activity>
         <activity
-            android:name="org.edx.mobile.view.CourseOutlineActivity"
-            android:label="@string/app_name"
-            android:screenOrientation="portrait"
-            >
-        </activity>
-
-        <activity
-            android:name=".view.CourseDiscussionTopicsActivity"
-            android:label="@string/app_name"
-            android:screenOrientation="portrait"
-            >
-        </activity>
-
-        <activity android:name=".view.CourseDiscussionPostsActivity"
-            android:label="@string/app_name"
-            android:screenOrientation="portrait"
-            >
-        </activity>
-
-        <activity android:name=".view.CourseDiscussionCommentsActivity"
-            android:label="@string/app_name"
-            android:screenOrientation="portrait"
-            >
-        </activity>
-
-        <activity android:name=".view.CourseDiscussionResponsesActivity"
+            android:name="tw.openedu.www.view.CourseOutlineActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
             >
         </activity>
 
         <activity
-            android:name="org.edx.mobile.view.CourseUnitNavigationActivity"
+            android:name="tw.openedu.www.view.CourseDiscussionTopicsActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            >
+        </activity>
+
+        <activity android:name="tw.openedu.www.view.CourseDiscussionPostsActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            >
+        </activity>
+
+        <activity android:name="tw.openedu.www.view.CourseDiscussionCommentsActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            >
+        </activity>
+
+        <activity android:name="tw.openedu.www.view.CourseDiscussionResponsesActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            >
+        </activity>
+
+        <activity
+            android:name="tw.openedu.www.view.CourseUnitNavigationActivity"
             android:label="@string/app_name"
             android:screenOrientation="user"
             android:configChanges="orientation|keyboardHidden|screenSize"
@@ -165,111 +165,111 @@
         </activity>
 
         <activity
-            android:name="org.edx.mobile.view.CourseLectureListActivity"
+            android:name="tw.openedu.www.view.CourseLectureListActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
             >
         </activity>
          
         <activity
-            android:name="org.edx.mobile.view.MyVideosTabActivity"
+            android:name="tw.openedu.www.view.MyVideosTabActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
             >
         </activity>
         
         <activity
-            android:name="org.edx.mobile.view.DownloadListActivity"
+            android:name="tw.openedu.www.view.DownloadListActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
             >
         </activity>
 
         <activity
-            android:name="org.edx.mobile.view.FindCoursesActivity"
+            android:name="tw.openedu.www.view.FindCoursesActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait">
         </activity>
 
         <activity
-            android:name="org.edx.mobile.view.CourseInfoActivity"
+            android:name="tw.openedu.www.view.CourseInfoActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait">
         </activity>
 
         <activity
-            android:name="org.edx.mobile.player.LandscapePlayerActivity"
+            android:name="tw.openedu.www.player.LandscapePlayerActivity"
             android:label="@string/app_name"
             android:screenOrientation="landscape"
             android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
         
         <activity
-            android:name="org.edx.mobile.view.VideoListActivity"
+            android:name="tw.openedu.www.view.VideoListActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait" />
 
         <activity
-            android:name="org.edx.mobile.view.MyGroupsListActivity"
+            android:name="tw.openedu.www.view.MyGroupsListActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait" />
         <activity
-            android:name="org.edx.mobile.view.CourseHandoutActivity"
+            android:name="tw.openedu.www.view.CourseHandoutActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait" />
 
         <activity
-            android:name="org.edx.mobile.view.CourseDetailInfoActivity"
+            android:name="tw.openedu.www.view.CourseDetailInfoActivity"
             android:label="@string/announcement_title"
             android:screenOrientation="portrait" />
 
         <activity
-            android:name="org.edx.mobile.view.CreateGroupActivity"
+            android:name="tw.openedu.www.view.CreateGroupActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait" />
 
         <activity
-            android:name="org.edx.mobile.view.DiscussionAddCommentActivity"
+            android:name="tw.openedu.www.view.DiscussionAddCommentActivity"
             android:label="@string/discussion_add_comment_title"
             android:screenOrientation="portrait" />
 
         <activity
-            android:name="org.edx.mobile.view.DiscussionAddResponseActivity"
+            android:name="tw.openedu.www.view.DiscussionAddResponseActivity"
             android:label="@string/discussion_add_response_title"
             android:screenOrientation="portrait" />
 
         <activity
-            android:name="org.edx.mobile.view.DiscussionAddPostActivity"
+            android:name="tw.openedu.www.view.DiscussionAddPostActivity"
             android:label="@string/discussion_post_create_new_post"
             android:screenOrientation="portrait" />
 
         <activity
-            android:name="org.edx.mobile.view.SocialFriendPickerActivity"
+            android:name="tw.openedu.www.view.SocialFriendPickerActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait" />
         <activity
-            android:name="org.edx.mobile.view.GroupSummaryActivity"
+            android:name="tw.openedu.www.view.GroupSummaryActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait" />
         <activity
-            android:name="org.edx.mobile.view.CertificateActivity"
+            android:name="tw.openedu.www.view.CertificateActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait" />
         <activity
-            android:name="org.edx.mobile.view.SettingsActivity"
+            android:name="tw.openedu.www.view.SettingsActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait" />
         <activity
-            android:name="org.edx.mobile.view.FriendsInCourseActivity"
+            android:name="tw.openedu.www.view.FriendsInCourseActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait" />
 
         <activity
-            android:name="org.edx.mobile.view.RegisterActivity"
+            android:name="tw.openedu.www.view.RegisterActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.NoTitleBar"/>
 
-        <receiver android:name="org.edx.mobile.module.download.DownloadCompleteReceiver">
+        <receiver android:name="tw.openedu.www.module.download.DownloadCompleteReceiver">
             <intent-filter>
                 <action android:name="android.intent.action.DOWNLOAD_COMPLETE"/>
                 <category android:name="android.intent.category.DEFAULT"/>
@@ -278,12 +278,12 @@
          
         <!-- Setup for Code Coverage -->
         <instrumentation
-            android:name="org.edx.mobile.instrumentation.EdxInstrumentation"
-            android:targetPackage="org.edx.mobile" >
+            android:name="tw.openedu.www.instrumentation.EdxInstrumentation"
+            android:targetPackage="org.openedu.www" >
         </instrumentation>
 	
         <!-- adb shell am broadcast -a org.edx.mobile.END_EMMA -->
-        <receiver android:name="org.edx.mobile.instrumentation.EndEmmaBroadcast" >
+        <receiver android:name="tw.openedu.www.instrumentation.EndEmmaBroadcast" >
             <intent-filter>
                 <action android:name="org.edx.mobile.END_EMMA" />
             </intent-filter>
@@ -296,11 +296,11 @@
         <!-- Setup Facebook -->
         <activity android:name="com.facebook.LoginActivity" />
 
-        <service android:name="org.edx.mobile.services.DownloadSpeedService" />
-        <service android:name="org.edx.mobile.services.FetchCourseFriendsService"/>
+        <service android:name="tw.openedu.www.services.DownloadSpeedService" />
+        <service android:name="tw.openedu.www.services.FetchCourseFriendsService"/>
 
         <receiver
-            android:name="org.edx.mobile.receivers.NetworkConnectivityReceiver"
+            android:name="tw.openedu.www.receivers.NetworkConnectivityReceiver"
             android:label="NetworkChangeReceiver" >
             <intent-filter>
                 <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
@@ -312,13 +312,13 @@
         <!--  https://www.parse.com/apps/quickstart#parse_push/android/existing  -->
         <service android:name="com.parse.PushService" />
         <!-- we have to add a level of indirection to avoid crash as parse maybe disabled by setting -->
-        <receiver android:name="org.edx.mobile.module.notification.EdxParseBroadcastReceiver">
+        <receiver android:name="tw.openedu.www.module.notification.EdxParseBroadcastReceiver">
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
                 <action android:name="android.intent.action.USER_PRESENT" />
             </intent-filter>
         </receiver>
-        <receiver android:name="org.edx.mobile.module.notification.EdxParsePushBroadcastReceiver"
+        <receiver android:name="tw.openedu.www.module.notification.EdxParsePushBroadcastReceiver"
             android:exported="false">
             <intent-filter>
                 <action android:name="com.parse.push.intent.RECEIVE" />

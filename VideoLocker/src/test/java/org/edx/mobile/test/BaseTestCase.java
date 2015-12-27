@@ -1,4 +1,4 @@
-package org.edx.mobile.test;
+package org.openedu.www.test;
 
 import android.content.Context;
 
@@ -10,10 +10,10 @@ import com.google.inject.Injector;
 import com.google.inject.Module;
 import com.google.inject.util.Modules;
 
-import org.edx.mobile.CustomRobolectricTestRunner;
-import org.edx.mobile.core.EdxDefaultModule;
-import org.edx.mobile.logger.Logger;
-import org.edx.mobile.util.Config;
+import org.openedu.www.CustomRobolectricTestRunner;
+import tw.openedu.www.core.EdxDefaultModule;
+import tw.openedu.www.logger.Logger;
+import tw.openedu.www.util.Config;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Ignore;

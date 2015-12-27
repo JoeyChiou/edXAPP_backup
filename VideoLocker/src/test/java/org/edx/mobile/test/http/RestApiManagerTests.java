@@ -1,22 +1,21 @@
-package org.edx.mobile.test.http;
+package org.openedu.www.test.http;
 
 import com.google.inject.Injector;
 
-import org.edx.mobile.core.IEdxEnvironment;
-import org.edx.mobile.http.IApi;
-import org.edx.mobile.http.RestApiManager;
-import org.edx.mobile.model.api.AnnouncementsModel;
-import org.edx.mobile.model.api.AuthResponse;
-import org.edx.mobile.model.api.EnrolledCoursesResponse;
-import org.edx.mobile.model.api.HandoutModel;
-import org.edx.mobile.model.api.ProfileModel;
-import org.edx.mobile.model.api.ResetPasswordResponse;
-import org.edx.mobile.model.api.SectionEntry;
-import org.edx.mobile.model.api.SyncLastAccessedSubsectionResponse;
-import org.edx.mobile.model.api.VideoResponseModel;
-import org.edx.mobile.module.registration.model.RegistrationDescription;
-import org.edx.mobile.services.ServiceManager;
-import org.edx.mobile.util.Config;
+import tw.openedu.www.http.IApi;
+import tw.openedu.www.http.RestApiManager;
+import tw.openedu.www.model.api.AnnouncementsModel;
+import tw.openedu.www.model.api.AuthResponse;
+import tw.openedu.www.model.api.EnrolledCoursesResponse;
+import tw.openedu.www.model.api.HandoutModel;
+import tw.openedu.www.model.api.ProfileModel;
+import tw.openedu.www.model.api.ResetPasswordResponse;
+import tw.openedu.www.model.api.SectionEntry;
+import tw.openedu.www.model.api.SyncLastAccessedSubsectionResponse;
+import tw.openedu.www.model.api.VideoResponseModel;
+import tw.openedu.www.module.registration.model.RegistrationDescription;
+import tw.openedu.www.services.ServiceManager;
+import tw.openedu.www.util.Config;
 import org.junit.Ignore;
 import org.mockito.Mockito;
 import org.robolectric.RuntimeEnvironment;

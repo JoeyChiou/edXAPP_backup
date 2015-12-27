@@ -1,6 +1,6 @@
-package org.edx.basetest;
+package org.openedu.basetest;
 
-import org.edx.elementlocators.IMyCoursesLocators_Offline;
+import org.openedu.elementlocators.IMyCoursesLocators_Offline;
 import org.testng.ITestResult;
 import org.testng.Reporter;
 import org.testng.annotations.AfterMethod;

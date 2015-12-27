@@ -27,7 +27,7 @@
 		android:listSelector="@color/grey_act_background"
         />
 
-    <org.edx.mobile.view.custom.ETextView
+    <tw.openedu.www.view.custom.ETextView
         android:id="@+id/empty_list_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

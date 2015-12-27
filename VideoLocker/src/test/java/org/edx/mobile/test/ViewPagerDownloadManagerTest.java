@@ -1,8 +1,8 @@
-package org.edx.mobile.test;
+package org.openedu.www.test;
 
-import org.edx.mobile.model.course.CourseComponent;
-import org.edx.mobile.services.ViewPagerDownloadManager;
-import org.edx.mobile.view.common.RunnableCourseComponent;
+import tw.openedu.www.model.course.CourseComponent;
+import tw.openedu.www.services.ViewPagerDownloadManager;
+import tw.openedu.www.view.common.RunnableCourseComponent;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;

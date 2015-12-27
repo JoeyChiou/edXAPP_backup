@@ -1,7 +1,7 @@
 /**
  * 
  */
-package org.edx.elementlocators;
+package org.openedu.elementlocators;
 
 /**
  * @author divakarpatil

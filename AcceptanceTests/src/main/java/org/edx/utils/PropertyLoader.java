@@ -1,4 +1,4 @@
-package org.edx.utils;
+package org.openedu.utils;
 
 import java.io.IOException;
 import java.util.Optional;

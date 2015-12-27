@@ -1,14 +1,16 @@
-package org.edx.mobile.view;
+package org.openedu.www.view;
 
 import android.view.View;
 import android.webkit.WebView;
 
-import org.edx.mobile.R;
-import org.edx.mobile.http.OkHttpUtil;
-import org.edx.mobile.model.api.EnrolledCoursesResponse;
-import org.edx.mobile.model.course.BlockType;
-import org.edx.mobile.model.course.CourseComponent;
-import org.edx.mobile.model.course.HtmlBlockModel;
+import tw.openedu.www.R;
+import tw.openedu.www.http.OkHttpUtil;
+import tw.openedu.www.model.api.EnrolledCoursesResponse;
+import tw.openedu.www.model.course.BlockType;
+import tw.openedu.www.model.course.CourseComponent;
+import tw.openedu.www.model.course.HtmlBlockModel;
+import tw.openedu.www.view.CourseUnitWebviewFragment;
+
 import org.junit.Test;
 import org.robolectric.util.SupportFragmentTestUtil;
 

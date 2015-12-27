@@ -1,7 +1,7 @@
-package org.edx.mobile.test;
+package org.openedu.www.test;
 
-import org.edx.mobile.base.MainApplication;
-import org.edx.mobile.logger.Logger;
+import tw.openedu.www.base.MainApplication;
+import tw.openedu.www.logger.Logger;
 
 /**
  * The {@link MainApplication} class is overridden for testing in

@@ -1,6 +1,6 @@
-package org.edx.androidtestsuite;
+package org.openedu.androidtestsuite;
 
-import org.edx.basetest.LoginTestSuiteBase;
+import org.openedu.basetest.LoginTestSuiteBase;
 import org.testng.annotations.Test;
 
 

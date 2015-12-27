@@ -1,11 +1,11 @@
-package org.edx.basetest;
+package org.openedu.basetest;
 
 import java.io.IOException;
 
 import org.apache.log4j.Logger;
-import org.edx.nativeapp.NativeAppDriver;
-import org.edx.utils.FileGenerator;
-import org.edx.utils.PropertyLoader;
+import org.openedu.nativeapp.NativeAppDriver;
+import org.openedu.utils.FileGenerator;
+import org.openedu.utils.PropertyLoader;
 import org.testng.ITestContext;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeTest;

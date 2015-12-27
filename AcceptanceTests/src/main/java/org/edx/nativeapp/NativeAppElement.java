@@ -1,8 +1,8 @@
-package org.edx.nativeapp;
+package org.openedu.nativeapp;
 
 import java.util.List;
 
-import org.edx.utils.PropertyLoader;
+import org.openedu.utils.PropertyLoader;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.JavascriptExecutor;

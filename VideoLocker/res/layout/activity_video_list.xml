@@ -32,13 +32,13 @@
 
         <fragment
             android:id="@+id/list_fragment"
-            android:name="org.edx.mobile.player.VideoListFragment"
+            android:name="tw.openedu.www.player.VideoListFragment"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_below="@id/container_player"
             tools:layout="@layout/fragment_video_list" />
 
-        <org.edx.mobile.view.custom.ETextView
+        <tw.openedu.www.view.custom.ETextView
             android:id="@+id/downloadMessage"
             style="@style/downloading_message"
             android:text="@string/started_downloading"

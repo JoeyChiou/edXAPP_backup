@@ -1,4 +1,4 @@
-import org.edx.builder.TaskHelper
+import org.openedu.builder.TaskHelper
 
 buildscript {
     repositories {
@@ -161,7 +161,7 @@ android {
     buildToolsVersion BUILD_TOOLS_VERSION
 
     defaultConfig {
-        applicationId "org.edx.mobile"
+        applicationId "tw.openedu.www"
         // minimum version is Android 4.0
         minSdkVersion 14
         targetSdkVersion 21
@@ -172,8 +172,10 @@ android {
         renderscriptSupportModeEnabled true
 
         // test configuration
-        testApplicationId 'org.edx.mobile.test'
-        testInstrumentationRunner 'org.edx.mobile.test.edXInstrumentRunner'
+        // testApplicationId 'org.edx.mobile.test'
+        testApplicationId 'tw.openedu.tw.test'
+        testInstrumentationRunner 'tw.openedu.test.edXInstrumentRunner'
+        // testInstrumentationRunner 'org.edx.mobile.test.edXInstrumentRunner'
         testHandleProfiling true
         testFunctionalTest true
 

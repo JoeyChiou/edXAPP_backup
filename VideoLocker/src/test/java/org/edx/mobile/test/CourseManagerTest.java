@@ -1,9 +1,9 @@
-package org.edx.mobile.test;
+package org.openedu.www.test;
 
-import org.edx.mobile.model.course.CourseStructureJsonHandler;
-import org.edx.mobile.model.course.CourseStructureV1Model;
-import org.edx.mobile.model.course.IBlock;
-import org.edx.mobile.services.CourseManager;
+import tw.openedu.www.model.course.CourseStructureJsonHandler;
+import tw.openedu.www.model.course.CourseStructureV1Model;
+import tw.openedu.www.model.course.IBlock;
+import tw.openedu.www.services.CourseManager;
 import org.junit.Before;
 import org.junit.Ignore;
 import org.junit.Test;

@@ -1,7 +1,7 @@
-package org.edx.mobile.test;
+package org.openedu.www.test;
 
 import android.net.Uri;
-import org.edx.mobile.view.custom.URLInterceptorWebViewClient;
+import tw.openedu.www.view.custom.URLInterceptorWebViewClient;
 import org.junit.Test;
 
 import java.util.HashMap;

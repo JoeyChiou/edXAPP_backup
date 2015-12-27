@@ -1,8 +1,8 @@
-package org.edx.mobile.view.custom.cc;
+package org.openedu.www.view.custom.cc;
 
 import java.util.List;
 
-import org.edx.mobile.player.IVideo.IClosedCaption;
+import org.openedu.www.player.IVideo.IClosedCaption;
 
 import android.app.DialogFragment;
 import android.content.Context;

@@ -1,8 +1,8 @@
-package org.edx.basetest;
+package org.openedu.basetest;
 
 import java.io.IOException;
 
-import org.edx.elementlocators.IMyVideosLocators;
+import org.openedu.elementlocators.IMyVideosLocators;
 import org.testng.ITestResult;
 import org.testng.Reporter;
 import org.testng.annotations.AfterMethod;

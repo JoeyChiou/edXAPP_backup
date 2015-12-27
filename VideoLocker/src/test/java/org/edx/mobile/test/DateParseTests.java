@@ -1,7 +1,6 @@
-package org.edx.mobile.test;
+package org.openedu.www.test;
 
-import org.edx.mobile.util.DateUtil;
-import org.edx.mobile.util.EmailUtil;
+import tw.openedu.www.util.DateUtil;
 import org.junit.Test;
 
 import java.text.ParseException;

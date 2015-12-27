@@ -1,13 +1,13 @@
-package org.edx.mobile.test.module;
+package org.openedu.www.test.module;
 
-import org.edx.mobile.model.VideoModel;
-import org.edx.mobile.model.db.DownloadEntry;
-import org.edx.mobile.model.db.DownloadEntry.DownloadedState;
-import org.edx.mobile.model.db.DownloadEntry.WatchedState;
-import org.edx.mobile.module.db.DataCallback;
-import org.edx.mobile.module.db.IDatabase;
-import org.edx.mobile.module.db.impl.DatabaseFactory;
-import org.edx.mobile.test.BaseTestCase;
+import tw.openedu.www.model.VideoModel;
+import tw.openedu.www.model.db.DownloadEntry;
+import tw.openedu.www.model.db.DownloadEntry.DownloadedState;
+import tw.openedu.www.model.db.DownloadEntry.WatchedState;
+import tw.openedu.www.module.db.DataCallback;
+import tw.openedu.www.module.db.IDatabase;
+import tw.openedu.www.module.db.impl.DatabaseFactory;
+import org.openedu.www.test.BaseTestCase;
 import org.junit.Test;
 import org.robolectric.RuntimeEnvironment;
 

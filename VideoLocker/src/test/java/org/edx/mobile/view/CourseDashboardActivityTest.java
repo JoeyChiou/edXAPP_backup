@@ -1,4 +1,4 @@
-package org.edx.mobile.view;
+package org.openedu.www.view;
 
 import android.content.Intent;
 import android.content.res.Resources;
@@ -8,10 +8,15 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import org.edx.mobile.R;
-import org.edx.mobile.model.api.EnrolledCoursesResponse;
-import org.edx.mobile.third_party.iconify.IconView;
-import org.edx.mobile.third_party.iconify.Iconify;
+import tw.openedu.www.R;
+import tw.openedu.www.model.api.EnrolledCoursesResponse;
+import tw.openedu.www.third_party.iconify.IconView;
+import tw.openedu.www.third_party.iconify.Iconify;
+import tw.openedu.www.view.CourseDashboardActivity;
+import tw.openedu.www.view.CourseDashboardFragment;
+import tw.openedu.www.view.CourseOutlineActivity;
+import tw.openedu.www.view.Router;
+
 import org.junit.Test;
 import org.robolectric.Robolectric;
 import org.robolectric.util.ActivityController;

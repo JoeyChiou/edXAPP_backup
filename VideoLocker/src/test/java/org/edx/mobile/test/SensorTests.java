@@ -1,4 +1,4 @@
-package org.edx.mobile.test;
+package org.openedu.www.test;
 
 import android.content.Context;
 import android.graphics.Point;
@@ -6,7 +6,7 @@ import android.view.Display;
 import android.view.Surface;
 import android.view.WindowManager;
 
-import org.edx.mobile.util.OrientationDetector;
+import tw.openedu.www.util.OrientationDetector;
 import org.junit.Test;
 import org.robolectric.RuntimeEnvironment;
 

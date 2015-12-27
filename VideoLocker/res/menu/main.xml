@@ -1,6 +1,6 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context="org.edx.mobile.MainActivity" >
+    tools:context="org.openedu.www.MainActivity" >
 
     <item
         android:id="@+id/offline"

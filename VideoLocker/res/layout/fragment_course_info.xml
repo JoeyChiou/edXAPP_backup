@@ -6,7 +6,7 @@
     android:gravity="center"
     android:orientation="vertical" >
 
-    <org.edx.mobile.view.custom.EdxWebView
+    <tw.openedu.www.view.custom.EdxWebView
         android:id="@+id/webview"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -17,7 +17,7 @@
               style="@style/api_progress_style"
               android:visibility="gone" />
       
-      <org.edx.mobile.view.custom.ETextView
+      <tw.openedu.www.view.custom.ETextView
         android:id="@+id/no_courseinfo_tv"
         style="@style/bold_text"
         android:layout_width="match_parent"

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.edx.mobile.player;
+package org.openedu.www.player;
 
 import java.lang.ref.WeakReference;
 import java.util.ArrayList;
@@ -22,10 +22,10 @@ import java.util.Formatter;
 import java.util.List;
 import java.util.Locale;
 
-import org.edx.mobile.player.IVideo.IClosedCaption;
-import org.edx.mobile.view.custom.SettingPopup;
-import org.edx.mobile.view.custom.cc.CCLanguageDialogFragment;
-import org.edx.mobile.view.custom.speed.SpeedDialogFragment;
+import org.openedu.www.player.IVideo.IClosedCaption;
+import org.openedu.www.view.custom.SettingPopup;
+import org.openedu.www.view.custom.cc.CCLanguageDialogFragment;
+import org.openedu.www.view.custom.speed.SpeedDialogFragment;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;

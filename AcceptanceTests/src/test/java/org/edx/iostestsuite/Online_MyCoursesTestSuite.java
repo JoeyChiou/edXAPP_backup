@@ -1,6 +1,6 @@
-package org.edx.iostestsuite;
+package org.openedu.iostestsuite;
 
-import org.edx.basetest.MyCoursesTestSuiteBase;
+import org.openedu.basetest.MyCoursesTestSuiteBase;
 import org.testng.Reporter;
 import org.testng.annotations.Test;
 

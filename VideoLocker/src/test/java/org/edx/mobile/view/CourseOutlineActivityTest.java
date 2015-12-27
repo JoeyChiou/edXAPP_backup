@@ -1,4 +1,4 @@
-package org.edx.mobile.view;
+package org.openedu.www.view;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -7,14 +7,19 @@ import android.support.v4.app.Fragment;
 import android.view.View;
 import android.widget.ListView;
 
-import org.edx.mobile.R;
-import org.edx.mobile.http.OkHttpUtil;
-import org.edx.mobile.model.api.EnrolledCoursesResponse;
-import org.edx.mobile.model.course.BlockPath;
-import org.edx.mobile.model.course.BlockType;
-import org.edx.mobile.model.course.CourseComponent;
-import org.edx.mobile.model.course.IBlock;
-import org.edx.mobile.module.prefs.PrefManager;
+import tw.openedu.www.R;
+import tw.openedu.www.http.OkHttpUtil;
+import tw.openedu.www.model.api.EnrolledCoursesResponse;
+import tw.openedu.www.model.course.BlockPath;
+import tw.openedu.www.model.course.BlockType;
+import tw.openedu.www.model.course.CourseComponent;
+import tw.openedu.www.model.course.IBlock;
+import tw.openedu.www.module.prefs.PrefManager;
+import tw.openedu.www.view.CourseOutlineActivity;
+import tw.openedu.www.view.CourseOutlineFragment;
+import tw.openedu.www.view.CourseUnitNavigationActivity;
+import tw.openedu.www.view.Router;
+
 import org.junit.Test;
 import org.robolectric.Robolectric;
 import org.robolectric.Shadows;

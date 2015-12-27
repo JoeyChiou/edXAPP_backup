@@ -1,4 +1,4 @@
-package org.edx.mobile.view;
+package org.openedu.www.view;
 
 import android.app.ActionBar;
 import android.content.Intent;
@@ -10,15 +10,22 @@ import android.support.v4.view.ViewPager;
 import android.view.View;
 import android.widget.TextView;
 
-import org.edx.mobile.R;
-import org.edx.mobile.http.OkHttpUtil;
-import org.edx.mobile.model.api.EnrolledCoursesResponse;
-import org.edx.mobile.model.course.BlockType;
-import org.edx.mobile.model.course.CourseComponent;
-import org.edx.mobile.model.course.HtmlBlockModel;
-import org.edx.mobile.model.course.VideoBlockModel;
-import org.edx.mobile.module.prefs.PrefManager;
-import org.edx.mobile.view.custom.DisableableViewPager;
+import tw.openedu.www.R;
+import tw.openedu.www.http.OkHttpUtil;
+import tw.openedu.www.model.api.EnrolledCoursesResponse;
+import tw.openedu.www.model.course.BlockType;
+import tw.openedu.www.model.course.CourseComponent;
+import tw.openedu.www.model.course.HtmlBlockModel;
+import tw.openedu.www.model.course.VideoBlockModel;
+import tw.openedu.www.module.prefs.PrefManager;
+import tw.openedu.www.view.CourseUnitEmptyFragment;
+import tw.openedu.www.view.CourseUnitFragment;
+import tw.openedu.www.view.CourseUnitMobileNotSupportedFragment;
+import tw.openedu.www.view.CourseUnitNavigationActivity;
+import tw.openedu.www.view.CourseUnitVideoFragment;
+import tw.openedu.www.view.CourseUnitWebviewFragment;
+import tw.openedu.www.view.Router;
+import tw.openedu.www.view.custom.DisableableViewPager;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.robolectric.Robolectric;

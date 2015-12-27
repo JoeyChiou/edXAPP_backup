@@ -1,6 +1,6 @@
-package org.edx.iostestsuite;
+package org.openedu.iostestsuite;
 
-import org.edx.basetest.Offline_LoginTestSuiteBase;
+import org.openedu.basetest.Offline_LoginTestSuiteBase;
 import org.testng.annotations.Test;
 
 @Test(groups ="iOS" )

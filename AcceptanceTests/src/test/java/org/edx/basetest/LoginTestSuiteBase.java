@@ -1,6 +1,6 @@
-package org.edx.basetest;
+package org.openedu.basetest;
 
-import org.edx.elementlocators.ILoginLocators;
+import org.openedu.elementlocators.ILoginLocators;
 import org.testng.ITestResult;
 import org.testng.Reporter;
 import org.testng.annotations.AfterMethod;

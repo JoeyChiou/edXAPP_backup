@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="50dp">
 
-    <org.edx.mobile.view.custom.ETextView
+    <tw.openedu.www.view.custom.ETextView
         android:id="@+id/discussion_topic_name_text_view"
         style="@style/regular_grey_text"
         android:layout_width="match_parent"

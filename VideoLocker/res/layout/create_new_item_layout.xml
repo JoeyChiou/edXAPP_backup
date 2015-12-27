@@ -10,7 +10,7 @@
         android:gravity="center_horizontal"
         android:layout_alignParentBottom="true">
 
-        <org.edx.mobile.third_party.iconify.IconView
+        <tw.openedu.www.third_party.iconify.IconView
             android:id="@+id/create_new_icon_view"
             style="@style/icon_view_standard_size_style"
             android:layout_centerVertical="true"

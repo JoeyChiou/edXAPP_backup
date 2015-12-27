@@ -1,4 +1,4 @@
-package org.edx.mobile.test.http;
+package org.openedu.www.test.http;
 
 import android.text.TextUtils;
 
@@ -11,13 +11,13 @@ import com.squareup.okhttp.mockwebserver.MockResponse;
 import com.squareup.okhttp.mockwebserver.MockWebServer;
 import com.squareup.okhttp.mockwebserver.RecordedRequest;
 
-import org.edx.mobile.http.Api;
-import org.edx.mobile.http.IApi;
-import org.edx.mobile.model.api.AuthResponse;
-import org.edx.mobile.model.api.ProfileModel;
-import org.edx.mobile.services.ServiceManager;
-import org.edx.mobile.test.BaseTestCase;
-import org.edx.mobile.util.Config;
+import tw.openedu.www.http.Api;
+import tw.openedu.www.http.IApi;
+import tw.openedu.www.model.api.AuthResponse;
+import tw.openedu.www.model.api.ProfileModel;
+import tw.openedu.www.services.ServiceManager;
+import org.openedu.www.test.BaseTestCase;
+import tw.openedu.www.util.Config;
 import org.json.JSONException;
 import org.json.JSONObject;
 import org.junit.Ignore;

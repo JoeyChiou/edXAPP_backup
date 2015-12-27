@@ -8,7 +8,7 @@
     android:paddingBottom="@dimen/edx_margin"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <org.edx.mobile.third_party.iconify.IconView
+    <tw.openedu.www.third_party.iconify.IconView
         android:id="@+id/discussion_post_type_icon"
         style="@style/icon_view_standard_size_style"
         android:layout_margin="@dimen/edx_margin"
@@ -73,7 +73,7 @@
         android:layout_toLeftOf="@+id/discussion_post_comment_icon"
         android:layout_centerVertical="true" />
 
-    <org.edx.mobile.third_party.iconify.IconView
+    <tw.openedu.www.third_party.iconify.IconView
         android:id="@+id/discussion_post_comment_icon"
         style="@style/icon_view_standard_size_style"
         android:layout_marginEnd="@dimen/edx_margin"

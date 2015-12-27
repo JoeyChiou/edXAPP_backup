@@ -1,6 +1,6 @@
-package org.edx.basetest;
+package org.openedu.basetest;
 
-import org.edx.elementlocators.ISignUpLocators;
+import org.openedu.elementlocators.ISignUpLocators;
 import org.testng.annotations.Test;
 
 public abstract class SignUpTestSuiteBase extends BaseTest implements ISignUpLocators{
